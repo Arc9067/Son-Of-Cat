@@ -1,0 +1,349 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+/* nav-bar start */
+.nav-div{
+    height: 70px;
+    width: 100%;
+    background-color:  #600080;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-div>nav{
+    height: 70px;
+    width: 80%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-font{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-ul{
+    height: 70px;
+    width: 40%;
+    /* background-color: yellow; */
+    position: relative;
+    left: 45%;
+}
+
+.nav-div>nav>.nav-ul>ul{
+    list-style: none;
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-content: space-evenly;
+}
+
+.nav-div>nav>.nav-ul>ul>li{
+    line-height: 70px;
+    /* padding-left: 25px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+.social-nav{
+    list-style: none;
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    opacity: 0%;
+    transition: 1s;
+}
+
+.nav-div>nav>.nav-ul>ul>li:nth-child(4):hover> .social-nav{
+    transition: 1s;
+    opacity: 100%;
+}
+
+.nav-div>nav>.nav-ul>ul>li:hover{
+    line-height: 70px;
+    /* padding-left: 25px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+/* nav-bar end */
+.about-section{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+/* about section start */
+.inner-about-section{
+    height: 500px;
+    width: 80%;
+    /* background-color: green; */
+}
+
+.inner-about-section>h3{
+    font-family: 'montserrat';
+    font-size: 30px;
+    position: relative;
+    top: 90px;
+    color: white;
+    /* letter-spacing: 2px; */
+    font-weight: bolder;
+}
+
+
+.inner-about-section>p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    top: 100px;
+    font-size: 15px;
+}
+
+.buy-link{
+    position: relative;
+    top: 120px;
+    outline: none;
+    border-radius: 15px;
+    width: 70px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background-color: green;
+    border: 0px;
+}
+
+.buy-link:hover{
+    position: relative;
+    top: 120px;
+    outline: none;
+    border-radius: 15px;
+    width: 70px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+    border: 0px;
+}
+
+.icon-div{
+    height: 40px;
+    width: 150px;
+    /* background-color: yellow; */
+    position: relative;
+    top: 125px;
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-icon{
+    width: 35px;
+    height: 35px;
+    /* background-color: blue; */
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.main-icon:hover{
+    width: 45px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    text-decoration: underline;
+}
+/* about section end */
+
+
+/* tokenomics section star */
+.tokenmoics-section{
+    height: 500px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.tokenomics{
+    height: 500px;
+    width: 80%;
+    /* background-color: green; */
+}
+
+.tokenmoics-section>.tokenomics>h3{
+    font-size: 30px;
+    font-family: 'montserrat';
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.tokenmoics-section>.tokenomics>.tax{
+    height: 85%;
+    width: 100%;
+    /* background-color: yellow; */
+    position: relative;
+    top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.main_tax{
+    height: 100%;
+    width: 45%;
+    background-color: #f7f7f7;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.main_tax>h3{
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+.inneer_main{
+    height: 90%;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+img{
+    width: 45px;
+}
+
+.inneer_main>h4{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main_tax:hover{
+    height: 100%;
+    width: 45%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    transition: width 2s;
+}
+/* tokenomicss end */
+
+.Roadmap{
+    height: 500px;
+    width: 100%;
+    background-color: #600080;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Roadmap>h3{
+    font-family: 'montserrat';
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.parent-roadmap{
+    width: 90%;
+    height: 80%;
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    border-radius: 15px;
+}
+
+.main-roadmap{
+    width: 24%;
+    height: 80%;
+    /* background-color: yellow; */
+}
+
+.main-roadmap>h3{
+    font-size: 35px;
+    font-family: 'montserrat';
+    font-weight: 1000;
+    text-align: left;
+    color: black;
+}
+
+.main-roadmap>ul{
+    list-style: disc;
+    list-style-position: outside;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly;
+    align-items: center; */
+}
+
+.main-roadmap>ul>li{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    position: relative;
+    top: 20px;
+    text-align: left;
+    position: relative;
+    left: 17px;
+}
+
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+
+footer>div>h5{
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.widget{
+    height: 60px;
+    width: 100%;
+    background-color: #600080;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon-div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
